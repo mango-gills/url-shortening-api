@@ -13,12 +13,12 @@ const Hero = () => {
             Build your brand's recognition and get detailed isnights on how your
             links are performing.
           </p>
-          <button className="px-10 rounded-full py-4 bg-[#2acfcf] text-white text-lg laptop:py-2 laptop:px-8 font-bold laptop:text-lg">
+          <button className="px-8 rounded-full py-3 bg-[#2acfcf] text-white text-normal laptop:py-2 laptop:px-8 font-bold laptop:text-lg">
             Get Started
           </button>
         </article>
 
-        <article>
+        <article className="order-first mb-6 tablet:mb-0 tablet:order-last">
           <img src={heroImg} alt="hero-img" />
         </article>
       </div>
