@@ -39,7 +39,7 @@ const UrlShortener = () => {
         </div>
         <Details />
       </div>
-      <div className="absolute w-full bg-gray-200 h-[600px] z-[-1] top-[70px]" />
+      <div className="absolute w-full bg-gray-200 h-full z-[-1] top-[70px]" />
     </section>
   );
 };

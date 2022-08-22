@@ -5,7 +5,7 @@ import fullyCustomizable from "../assets/icon-fully-customizable.svg";
 
 const Details = () => {
   return (
-    <section className="w-full mx-auto mt-20">
+    <section className="w-full mx-auto mt-20 h-[600px]">
       <div className="mb-10 text-center">
         <h1 className="mb-2 text-4xl font-bold">Advanced Statistics</h1>
         <p className="text-sm text-gray-500">
