@@ -1,4 +1,5 @@
 import React from "react";
+import Details from "./Details";
 
 const UrlShortener = () => {
   return (
@@ -36,8 +37,9 @@ const UrlShortener = () => {
             </li>
           </ul>
         </div>
+        <Details />
       </div>
-      <div className="absolute w-full bg-gray-200 h-[300px] z-[-1] top-[70px]" />
+      <div className="absolute w-full bg-gray-200 h-[600px] z-[-1] top-[70px]" />
     </section>
   );
 };
