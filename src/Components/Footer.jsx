@@ -19,7 +19,7 @@ const Footer = () => {
 
       <div className="flex flex-col items-center justify-center py-10 mx-auto tablet:items-start tablet:py-0 tablet:mt-20 tablet:justify-between tablet:max-w-7xl tablet:flex-row">
         <div className="mb-8 tablet:mb-0">
-          <img src={logo} alt="logo-img" className="" />
+          <img src={logo} alt="logo-img" className="invert contrast-200" />
         </div>
         <ul className="flex flex-col text-center tablet:text-left tablet:space-x-24 tablet:ml-44 tablet:flex-row">
           {footerLinks.map((link, index) => (
