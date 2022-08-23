@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="py-10 laptop:py-20">
       <div className="grid grid-cols-1 gap-5 mx-auto tablet:grid-cols-2 tablet:gap-10 tablet:place-items-center tablet:max-w-7xl">
-        <article className="px-4 text-center tablet:text-left tablet:px-0">
+        <article className="px-4 text-center tablet:text-left laptop:px-0">
           <h1 className="mb-5 text-4xl font-bold tablet:text-5xl laptop:text-6xl text-slate-800">
             More than just shorter links
           </h1>

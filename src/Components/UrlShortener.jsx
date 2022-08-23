@@ -4,9 +4,9 @@ import Details from "./Details";
 const UrlShortener = () => {
   return (
     <section className="relative">
-      <div className="relative px-4 mx-auto mt-12 tablet:mt-0 laptop:max-w-7xl tablet:px-0">
+      <div className="relative px-4 mx-auto mt-12 tablet:mt-0 laptop:max-w-7xl laptop:px-0">
         <div
-          className="flex flex-col tablet:flex-row py-4 w-full tablet:py-8 bg-[#3b3054] bg-cover bg-no-repeat rounded-md items-center justify-center"
+          className="flex flex-col tablet:flex-row py-4 w-full tablet:py-8 bg-[#3b3054] bg-cover bg-no-repeat rounded-md items-center justify-center tablet:px-6"
           style={{ backgroundImage: "url(/bg-shorten-desktop.svg)" }}
         >
           <input

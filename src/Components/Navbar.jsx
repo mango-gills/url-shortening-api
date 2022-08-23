@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="relative flex items-center justify-between px-4 mx-auto my-8 tablet:px-0 max-w-7xl">
+    <div className="relative flex items-center justify-between px-4 mx-auto my-8 laptop:px-0 max-w-7xl">
       <img className="mr-2" src={logo} alt="logo" />
 
       <div className="hidden w-full tablet:block">
