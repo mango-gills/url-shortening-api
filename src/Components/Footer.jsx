@@ -4,7 +4,7 @@ import { footerLinks, socialIcons } from "../Constants";
 
 const Footer = () => {
   return (
-    <section className="bg-[#232127] w-full tablet:h-[600px]">
+    <section className="bg-[#232127] w-full tablet:h-[500px]">
       <div
         className="w-full h-[200px] bg-cover bg-no-repeat bg-[#3b3054] text-center flex flex-col justify-center items-center"
         style={{ backgroundImage: "url(/bg-boost-desktop.svg)" }}
