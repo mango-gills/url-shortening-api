@@ -17,11 +17,11 @@ const Footer = () => {
         </button>
       </div>
 
-      <div className="flex flex-col items-center justify-center py-10 mx-auto tablet:items-start tablet:py-0 tablet:mt-20 tablet:justify-between tablet:max-w-7xl tablet:flex-row">
+      <div className="flex flex-col items-center justify-center px-4 py-10 mx-auto tablet:items-start tablet:py-0 tablet:mt-20 tablet:justify-between tablet:max-w-7xl tablet:flex-row laptop:px-0">
         <div className="mb-8 tablet:mb-0">
           <img src={logo} alt="logo-img" className="invert contrast-200" />
         </div>
-        <ul className="flex flex-col text-center tablet:text-left tablet:space-x-24 tablet:ml-44 tablet:flex-row">
+        <ul className="flex flex-col text-center tablet:text-left tablet:space-x-12 laptop:space-x-24 laptop:ml-44 tablet:flex-row">
           {footerLinks.map((link, index) => (
             <li className="">
               <h1 className="mb-0 text-white tablet:mb-4">{link.title}</h1>
