@@ -13,16 +13,16 @@ const Navbar = () => {
     <div className="relative flex items-center justify-between px-4 mx-auto my-8 tablet:px-0 max-w-7xl">
       <img className="mr-2" src={logo} alt="logo" />
 
-      <div className="hidden w-full mx-5 tablet:block">
+      <div className="hidden w-full tablet:block">
         <div className="flex items-center justify-between font-bold text-[#bfbfbf]">
-          <ul className="flex space-x-4">
+          <ul className="flex space-x-4 tablet:ml-4">
             <li>Features</li>
             <li>Pricing</li>
             <li>Resources</li>
           </ul>
           <ul className="flex items-center">
             <li className="mr-4">Login</li>
-            <li className="bg-[#2acfcf] font-bold text-white rounded-full px-8 py-2 mx-auto">
+            <li className="bg-[#2acfcf] font-bold text-white rounded-full px-8 py-2">
               Signup
             </li>
           </ul>
