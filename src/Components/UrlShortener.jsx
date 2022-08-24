@@ -34,7 +34,6 @@ const UrlShortener = () => {
         ]);
       })
       .catch((error) => {
-        console.log(error.response.data.error);
         setErrorCode(error.response.data.error);
       });
   };
