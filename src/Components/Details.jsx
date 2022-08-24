@@ -15,7 +15,7 @@ const Details = () => {
       </div>
 
       <div className="relative flex flex-col justify-between tablet:flex-row">
-        <div className="relative flex flex-col items-center justify-center px-4 py-8 mb-10 bg-white rounded-md tablet:px-8 tablet:m-4 tablet:items-start z-[5] laptop:h-[280px]">
+        <div className="relative flex flex-col items-center justify-center px-4 py-8 mb-16 bg-white rounded-md tablet:px-8 tablet:m-4 tablet:items-start z-[5] laptop:h-[280px]">
           <div className="bg-[#3b3054] h-14 w-14 rounded-full flex items-center justify-center p-4 absolute top-[-20px] laptop:h-16 laptop:w-16">
             <img src={brandRecognition} alt="brand-recognition" />
           </div>
@@ -28,7 +28,7 @@ const Details = () => {
           </p>
         </div>
 
-        <div className="relative flex flex-col items-center justify-center px-4 py-8 mb-10 bg-white rounded-md tablet:m-4 laptop:mt-16 tablet:items-start laptop:px-8 z-[5] laptop:h-[280px]">
+        <div className="relative flex flex-col items-center justify-center px-4 py-8 mb-16 bg-white rounded-md tablet:m-4 laptop:mt-16 tablet:items-start laptop:px-8 z-[5] laptop:h-[280px]">
           <div className="bg-[#3b3054] h-14 w-14 rounded-full flex items-center justify-center p-4 absolute top-[-20px] laptop:h-16 laptop:w-16">
             <img src={detailedRecords} alt="detailed-records" />
           </div>
@@ -54,7 +54,9 @@ const Details = () => {
             customizable links, supercharging audience engagement.
           </p>
         </div>
-        <hr className="absolute border-4 border-[#2acfcf] w-[600px] mx-auto right-0 left-0 top-[42%] z-[1]" />
+        {/* <hr className="absolute border-4 border-[#2acfcf] w-[600px] mx-auto right-0 left-0 top-[42%] z-[1]" /> */}
+        <hr className="hidden absolute tablet:block border-4 border-[#2acfcf] w-[500px] mx-auto right-0 left-0 top-[42%] z-[1]" />
+        <hr className="absolute tablet:hidden border-4 border-[#2acfcf] w-[0] h-[500px] mx-auto right-0 left-0 top-[18%] z-[1]" />
       </div>
     </section>
   );
