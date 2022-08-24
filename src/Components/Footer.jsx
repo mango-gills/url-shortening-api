@@ -23,11 +23,13 @@ const Footer = () => {
         </div>
         <ul className="flex flex-col text-center tablet:text-left tablet:space-x-12 laptop:space-x-24 laptop:ml-44 tablet:flex-row">
           {footerLinks.map((link, index) => (
-            <li className="">
+            <li key={index}>
               <h1 className="mb-0 text-white tablet:mb-4">{link.title}</h1>
               <ul className="flex flex-col space-y-2 tablet:space-y-4 text-sm font-normal my-6 tablet:my-0 text-[#9e9aa7]">
                 {link.links.map((item, idx) => (
-                  <a href="#">{item.name}</a>
+                  <a key={idx} href="#">
+                    {item.name}
+                  </a>
                 ))}
               </ul>
             </li>
@@ -37,6 +39,7 @@ const Footer = () => {
           <ul className="flex items-start space-x-6">
             {socialIcons.map((social, index) => (
               <img
+                key={index}
                 src={social.icon}
                 alt={social.id}
                 className="cursor-pointer"
